@@ -9,7 +9,7 @@
 
 ## Requires
 Python 3.11.0  
-pyttsx3 2.90
+pyttsx3 2.90  
 beautifulsoup4 4.11.1  
 requests 2.28.1  
 
@@ -25,4 +25,4 @@ v1.0.0
 Alan
 
 ## LICENSE
-[MIT License](https://github.com/joanbabyfet/collect_bank/blob/master/LICENSE)
+[MIT License](https://github.com/joanbabyfet/auto_speak_news/blob/master/LICENSE)
