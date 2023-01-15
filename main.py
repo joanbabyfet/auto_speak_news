@@ -1,6 +1,7 @@
 import pyttsx3
 from bs4 import BeautifulSoup
 import requests
+import utils
 
 # 朗读文本
 def speak(text):
@@ -16,6 +17,7 @@ def speak(text):
     engine.setProperty('volume', 0.8)
 
     engine.save_to_file(text, 'news.mp3') # 先保存音频到本地
+    utils.logger(text) # 写入日志
     engine.say(text) # 朗读
     engine.runAndWait()
     engine.stop()
